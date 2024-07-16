@@ -1,15 +1,15 @@
 {
-  "name": "understanding-ts",
+  "name": "course-starting-project",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
-  "author": "Maximilian Schwarzmüller",
+  "author": "Eric Moolenbeek",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  },
-  "description": ""
+  }
 }
