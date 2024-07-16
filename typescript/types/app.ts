@@ -37,6 +37,7 @@ const isBoolean: boolean = true;
 
 // objects
 
+// object types infered by typescript (best practice)
 const person1 = {
     name: 'Eric',
     Age: 12
@@ -45,6 +46,7 @@ const person1 = {
 console.log(person1.name);
 console.log(person1);
 
+// object types declared explicitly (bad practice)
 const person2: {
     name: string;
     age: number;
