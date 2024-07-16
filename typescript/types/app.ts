@@ -1,7 +1,5 @@
 // types
 
-// number type
-
 function add(number1: number, number2: number, showResult: boolean, phrase: string) {
 
   // this js method gets type at runtime
