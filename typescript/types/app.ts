@@ -20,3 +20,17 @@ const printResult = true;
 const resultPhrase = 'Result is: ' 
 
 add(number1, number2, printResult, resultPhrase);
+
+// type inference (best practice)
+// typescript infers the data types when declaring variables, it is not necessary to declare
+
+const num1 = 5;
+const text = 'hello world';
+const isBool = true;
+
+// type inference (bad practice)
+// this will run but is considered redundant and unecessary
+
+const num2: number = 5;
+const moreText: string = 'hello world';
+const isBoolean: boolean = true;
