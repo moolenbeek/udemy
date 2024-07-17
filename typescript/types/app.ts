@@ -87,6 +87,21 @@ console.log(cat.name);
 color array is of type string allowing the use of toUpperCase */
 
 for (const color of cat.colors) {
-    console.log(color.toUpperCase());
-    //console.log(hobby.map()); // ERROR!
+  console.log(color.toUpperCase());
+  //console.log(hobby.map()); // ERROR!
 }
+
+// tuple
+
+let role = [2, "user"];
+
+// role.push("admin");
+// role[1] = 10; 
+
+console.log(role);
+
+let myRole: [number, string] = [1, "author"];
+
+// myRole.push("dev");
+
+console.log(myRole);
