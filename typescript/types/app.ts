@@ -88,4 +88,5 @@ color array is of type string allowing the use of toUpperCase */
 
 for (const color of cat.colors) {
     console.log(color.toUpperCase());
+    //console.log(hobby.map()); // ERROR!
 }
