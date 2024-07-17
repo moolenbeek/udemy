@@ -110,3 +110,15 @@ let employee: [number, string] = [1, 'Eric'];
 employee = [2, 'Joe'];
 
 console.log(employee);
+
+
+// Enum
+
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+};
+
+console.log(Direction.Up);
