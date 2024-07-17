@@ -105,3 +105,8 @@ let myRole: [number, string] = [1, "author"];
 // myRole.push("dev");
 
 console.log(myRole);
+
+let employee: [number, string] = [1, 'Eric'];
+employee = [2, 'Joe'];
+
+console.log(employee);
