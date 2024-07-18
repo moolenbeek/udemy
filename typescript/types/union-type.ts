@@ -17,3 +17,5 @@ console.log(combineNumber);
 
 const combineString = combine('hello ', 'world');
 console.log(combineString);
+
+export {};
