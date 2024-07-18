@@ -2,6 +2,8 @@
 
 const combine = (a: number | string, b: number | string) => {
     let result;
+
+    // runtime type check
     if (typeof a === 'number' && typeof b === 'number'){
         result = a + b;
     } else {
