@@ -122,3 +122,12 @@ enum Direction {
 };
 
 console.log(Direction.Up);
+
+enum Material { WOOD = 'WOOD', METAL = 100, PLASTIC = 'PLASTIC'};
+
+const item = {
+    name: 'Table',
+    material: Material.WOOD
+};
+
+console.log(item);
