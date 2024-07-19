@@ -56,27 +56,6 @@ for (const color of cat.colors) {
   //console.log(hobby.map()); // ERROR!
 }
 
-// tuple
-
-let role = [2, "user"];
-
-// role.push("admin");
-// role[1] = 10; 
-
-console.log(role);
-
-let myRole: [number, string] = [1, "author"];
-
-// myRole.push("dev");
-
-console.log(myRole);
-
-let employee: [number, string] = [1, 'Eric'];
-employee = [2, 'Joe'];
-
-console.log(employee);
-
-
 // Enum
 
 enum Direction {
