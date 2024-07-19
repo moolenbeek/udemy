@@ -31,5 +31,3 @@ console.log(combineStringNumbers);
 
 const combineStrings = combine("hello ", "world", "as-text");
 console.log(combineStrings);
-
-export {};
