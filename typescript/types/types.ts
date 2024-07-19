@@ -39,29 +39,6 @@ const num2: number = 5;
 const moreText: string = "hello world";
 const isBoolean: boolean = true;
 
-// objects
-
-// object types infered by typescript (best practice)
-const person1 = {
-  name: "Eric",
-  Age: 12,
-};
-
-console.log(person1.name);
-console.log(person1);
-
-// object types declared explicitly (bad practice)
-const person2: {
-  name: string;
-  age: number;
-} = {
-  name: "Joe",
-  age: 20,
-};
-
-console.log(person2.name);
-console.log(person2);
-
 // arrays
 
 const hobbies = ["Guitar", "Coding"];
