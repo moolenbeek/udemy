@@ -39,18 +39,6 @@ const num2: number = 5;
 const moreText: string = "hello world";
 const isBoolean: boolean = true;
 
-// arrays
-
-const hobbies = ["Guitar", "Coding"];
-
-// any type array
-let favoriteHobbies: any[];
-favoriteHobbies = ["Guitar", 1];
-
-// string array
-let myFavoriteHobbies: string[];
-myFavoriteHobbies = ["Guitar", "Coding"];
-
 // object and array
 const cat = {
   name: "Luna",
