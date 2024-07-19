@@ -55,23 +55,3 @@ for (const color of cat.colors) {
   console.log(color.toUpperCase());
   //console.log(hobby.map()); // ERROR!
 }
-
-// Enum
-
-enum Direction {
-    Up,
-    Down,
-    Left,
-    Right
-};
-
-console.log(Direction.Up);
-
-enum Material { WOOD = 'WOOD', METAL = 100, PLASTIC = 'PLASTIC'};
-
-const item = {
-    name: 'Table',
-    material: Material.WOOD
-};
-
-console.log(item);
