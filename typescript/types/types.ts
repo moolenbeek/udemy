@@ -38,20 +38,3 @@ const isBool = true;
 const num2: number = 5;
 const moreText: string = "hello world";
 const isBoolean: boolean = true;
-
-// object and array
-const cat = {
-  name: "Luna",
-  age: 7,
-  colors: ["White", "Brown", "Black"],
-};
-
-console.log(cat.name);
-
-/* typescript is using type inference to determine that the 
-color array is of type string allowing the use of toUpperCase */
-
-for (const color of cat.colors) {
-  console.log(color.toUpperCase());
-  //console.log(hobby.map()); // ERROR!
-}
