@@ -31,12 +31,10 @@ console.log(combineStringNumbers);
 const combineStrings = combine("hello ", "world", "as-text");
 console.log(combineStrings);
 
-
-
 type User = { name: string; age: number };
 
 const greet = (user: User) => {
   return `Hello ${user.name}`;
 };
 
-console.log(greet( { name: 'Eric', age: 27 }));
+console.log(greet({ name: "Eric", age: 27 }));

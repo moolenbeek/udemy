@@ -3,12 +3,15 @@
 const combine = (
   a: number | string,
   b: number | string,
-  resultConversion: 'as-number' | 'as-text'
+  resultConversion: "as-number" | "as-text"
 ) => {
   let result;
 
   // runtime type check
-  if (typeof a === "number" && typeof b === "number" || resultConversion === 'as-number') {
+  if (
+    (typeof a === "number" && typeof b === "number") ||
+    resultConversion === "as-number"
+  ) {
     result = +a + +b;
   } else {
     result = a.toString() + b.toString();
@@ -16,11 +19,11 @@ const combine = (
 
   return result;
 
-//   if (resultConversion === "as-number") {
-//     return +result;
-//   } else {
-//     return result.toString();
-//   }
+  //   if (resultConversion === "as-number") {
+  //     return +result;
+  //   } else {
+  //     return result.toString();
+  //   }
 };
 
 const combineNumbers = combine(20, 30, "as-number");
