@@ -9,8 +9,8 @@ class Department {
   }
 
   // method
-  describe (this: Department) {
-    console.log('Department: ' + this.name);
+  describe(this: Department) {
+    console.log("Department: " + this.name);
   }
 }
 
