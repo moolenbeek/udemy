@@ -20,3 +20,5 @@ const shipping = new Department("Shipping");
 console.log(shipping);
 
 shipping.describe();
+
+export {};
